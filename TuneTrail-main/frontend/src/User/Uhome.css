@@ -1,0 +1,57 @@
+.uhome-container {
+    background-image: url('https://www.indiablooms.com/showbiz_pic/2019/ishqtera-1567251775.jpg');
+    background: linear-gradient(to bottom, #121212, #282828);
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    padding-bottom: 50px;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #1db954;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .card-item {
+    width: 18rem;
+    background-color: #282828;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    border-radius: 4px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #121212;
+    color: #1db954;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  

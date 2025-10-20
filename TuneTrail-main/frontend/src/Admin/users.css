@@ -1,0 +1,56 @@
+/* users.css */
+
+.table {
+    width: 70%;
+    margin: auto;
+    background-color: #282828; /* Spotify-like dark background */
+    color: #ffffff; /* White text */
+  }
+  
+  .table th, .table td {
+    border-color: #3e3e3e; /* Border color */
+  }
+  
+  .table th {
+    background-color: #181818; /* Header background */
+    font-weight: bold;
+  }
+  
+  .table tbody tr {
+    transition: background-color 0.3s;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #3e3e3e; /* Hover effect */
+  }
+  
+  .card {
+    background-color: #1e1e1e; /* Spotify-like dark background */
+    color: #ffffff; /* White text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .card img {
+    border-radius: 8px 8px 0 0; /* Rounded corners for the image */
+  }
+  
+  .card p {
+    color: #b3b3b3; /* Grey text */
+  }
+  
+  .card button {
+    background-color: transparent; /* Transparent background for buttons */
+    color: #b3b3b3; /* Grey text */
+    border: none; /* Remove default border */
+  }
+  
+  .card button:hover {
+    color: #ffffff; /* White text on hover */
+  }
+  
+  .card-title {
+    color: #ffffff; /* White text for the card title */
+  }
+  
